@@ -15,13 +15,11 @@ Shortly after Huntercoin, a game called **Motocoin** was launched in May 2014. D
 In April 2015, EverdreamSoft did a token sale on CounterParty to raise money to build a trading card game called **Spells of Genesis**. The official launch date of the game, according to the developer website, was in 2017. In recent years, tokens were also deployed to Ethereum.
 
 ## 2017 onwards
-A boom for decentralised gaming came in 2017. Prices of cryptocurrencies hit all-time-highs and November saw the release of the popular game **CryptoKitties**. The game involves breeding cats with the option of trading them. Each cat is represented on the Ethereum blockchain as a non-fungible token following the ERC-721 token standard. This standard is now synonymous with blockchain gaming.
+A boom for decentralised gaming came in 2017. Prices of cryptocurrencies hit all-time-highs and November saw the release of the popular game **CryptoKitties**. The game involves breeding cats with the option of trading them. Each cat is represented on the Ethereum blockchain as a non-fungible token (NFT) following the ERC-721 token standard. This standard is now synonymous with blockchain gaming.
 
 The popularity of the game was so high that Ethereum hit it’s scaling limits and caused the network to be congested in December 2017. As such, it is the most famous blockchain game to date. It is worth noting that the game is not fully decentralised. The art is held on the developer’s servers and licensed to players for special usage.
 
-The team behind CryptoKitties are now working on a new blockchain that’s entirely dedicated to blockchain gaming.
-
-Earlier in 2017, there was a token sale for the game **Decentraland**. Initially, the game raised money by doing a token sale on Ethereum.
+The team behind CryptoKitties are now working on a new blockchain that’s entirely dedicated to blockchain gaming. Earlier in 2017, there was a token sale for the game **Decentraland**. Initially, the game raised money by doing a token sale on Ethereum.
 
 This game is worth a mention as it has become a fully decentralised game. That includes the game assets and the governance of development. Currently, assets are presented on Ethereum as tokens, while the assets themselves will be hosted on a decentralised-hosting technology.
 
@@ -35,7 +33,10 @@ Arguably, it isn’t the first given that Huntercoin already exists but probably
 
 One game that’s still in development is Taurion, which is a decentralised MMO RTS. The game can host many players simultaneously with all moves being stored on-chain. This is the latest game from the Xaya team who developed the Huntercoin game mentioned previously. Release of the game is scheduled for later in 2020.
 
-### References
+## History of NFTs
+The full history of NFTs is beyond the scope of this book. They are an important piece of blockchain gaming, but their history is well-covered elsewhere. The NFT came to prominence with the ERC-721 standard, however it can be argued that Namecoin provided the first example of a non-fungile asset. Domain names listed on Namecoin are tradeable but clearly each domain is unique.
+
+## References
 
 Satoshi's poker game
 1. https://sourceforge.net/p/bitcoin/code/1/tree//trunk/uibase.cpp
@@ -67,3 +68,7 @@ Decentraland
 1. https://decentraland.org/
 1. https://decentraland.org/blog/announcements/decentraland-next-steps-for-2020/
 1. https://www.theblockcrypto.com/post/36054/blockchain-gaming-part-iii-protocol-led-second-generation-games
+
+NFT History
+1. https://www.namecoin.org/
+1. https://andrewsteinwold.substack.com/p/the-history-of-non-fungible-tokens
