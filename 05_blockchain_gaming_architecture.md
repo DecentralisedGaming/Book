@@ -223,7 +223,7 @@ Substrate Kitties
 
 Taurion
 1. [Taurion Website](https://taurion.io/)
-1. [Xaya - The Game Processor](https://github.com/xaya/xaya_tutorials/wiki/The-Game-Processor)
+1. [Xaya architecture, including description of the GSP](https://github.com/xaya/xaya_tutorials/wiki/The-Game-Processor)
 1. Architecture diagrams from private discussion with the Xaya team.
 
 Nine Chronicles
