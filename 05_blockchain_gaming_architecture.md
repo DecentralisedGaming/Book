@@ -43,6 +43,19 @@ Huntercoin was essentially the first blockchain. It launched in 2014 and all of 
 
 As you should expect, a modified version of the game’s UI would allow for variations in graphics but it wouldn’t be allowed to modify the gameplay since all of the logic is on-chain.
 
+#### Example: Nine Chronicles
+This team is creating an MMO RPG game. It is essentially a turn-based 2D side-scroller. Gameplay includes crafting and combat.
+
+The node software and game client came packaged together as a single binary. In the alpha and beta versions of the game, mining was performed by the development team but this should change for the future such that anyone can mine.
+
+Similar to huntercoin, the Planetarium team who develop Nine Chronicles use a monolithic architecture but are looking to implement a  hybrid (decentralised) architecture in the future.
+
+#### Example: Ethernal World
+Ethernal World is a Roguelike game that is built entirely using smart contracts that run on an Ethereum sidechain. The map is generated as players discover the new rooms. Currently in alpha, the map is a grid of square rooms, but the content of the rooms is not known until a player first discovers them. One player action currently takes one block-time, as all actions are essentially transactions.
+
+Current, gameplay allows for exploration of a huge map, PVE combat, and the finding of items and loot. In the future, the game will potentially have an infinite and enternally lasting world.
+
+
 ### Monolithic Variation: Smart Contracts
 The most obvious variation of the monolithic model is to encapsulate the game rules inside a smart contract. The code for a smart contract is not known ahead of time so it is not precompiled. For chains such as Ethereum the logic of the smart contract can be arbitrarily complex, although greater complexity requires greater execution costs. As is known, Ethereum is a metered chain where each computation depletes some amount of fuel (“gas”).
 
@@ -114,14 +127,6 @@ Layers of the Xaya tech stack
 * The top layer is the user interface which renders the graphics in accordance to what the GSP shows and handles the users’ interactions. 
 
 The Xaya team is currently working on advancing their architecture in such a way that players won’t have to run a full node, but can still play their games. Decentralisation is maintained for those who want it. This is important for mobile gaming as such devices won't be able to run either the node or the GSP, but they could connect to a trusted third party.
-
-#### Example: Nine Chronicles
-
-This team is creating an MMO RPG game. It is essentially a turn-based 2D side-scroller. Gameplay includes crafting and combat.
-
-The node software and game client came packaged together as a single binary. In the alpha and beta versions of the game, mining was performed by the development team but this should change for the future such that anyone can mine.
-
-Similar to Taurion, the Planetarium team who develop Nine Chronicles use a similar layer architecture but are looking to implement a similar hybrid architecture in the future.
 
 ## Hybrid
 
@@ -215,6 +220,15 @@ Huntercoin
 1. [Huntercoin Website](https://huntercoin.org)
 1. [Huntercoin announcement (Bitcointalk)](https://bitcointalk.org/index.php?topic=435170.0)
 
+Nine Chronicles
+1. [Nine Chronicles Website](http://nine-chronicles.com/)
+1. [Libplanet design](https://docs.libplanet.io/0.5.3/articles/design.html)
+1. [Planetarium presenting on their architecture and game](https://www.youtube.com/watch?v=pBpxvnb8n5Y)
+
+Ethernal World
+1. [Ethernal World website](https://ethernal.world/)
+1. [Ethernal team presenting on their architecture and game](https://www.youtube.com/watch?v=4bAwv3i28f4)
+
 CryptoKitties
 1. [Outline of problems with CryptoKitties](https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3)
 
@@ -224,11 +238,9 @@ Substrate Kitties
 Taurion
 1. [Taurion Website](https://taurion.io/)
 1. [Xaya architecture, including description of the GSP](https://github.com/xaya/xaya_tutorials/wiki/The-Game-Processor)
+1. [Xaya presenting on their architecture and games](https://www.youtube.com/watch?v=PNILIOkogUQ)
 1. Architecture diagrams from private discussion with the Xaya team.
 
-Nine Chronicles
-1. [Nine Chronicles Website](http://nine-chronicles.com/)
-1. [Libplanet design](https://docs.libplanet.io/0.5.3/articles/design.html)
 
 Forgotten Artifacts
 1. [Forgotten Artifacts Website](https://forgottenartifacts.io/)
