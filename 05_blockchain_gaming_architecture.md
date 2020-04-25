@@ -53,6 +53,8 @@ Similar to huntercoin, the Planetarium team who develop Nine Chronicles use a mo
 #### Example: Ethernal World
 Ethernal World is a Roguelike game that is built entirely using smart contracts that run on an Ethereum sidechain. The map is generated as players discover the new rooms. Currently in alpha, the map is a grid of square rooms, but the content of the rooms is not known until a player first discovers them. One player action currently takes one block-time, as all actions are essentially transactions.
 
+One lesser known point is that the dev team currently cache the data (it's all on-chain) on a server that helps to improve user experience but introduces some centralisation. Ultimately, as all data is on-chain then anyone could play directly. In the future, it is hoped that the server code is also made open-source. This would bring Ethernal into the architecture of "advanced hybrid" mentioned below.
+
 Current, gameplay allows for exploration of a huge map, PVE combat, and the finding of items and loot. In the future, the game will potentially have an infinite and enternally lasting world.
 
 
