@@ -39,7 +39,7 @@ The monolithic architecture scales poorly, so it will rarely make sense to put a
 
 
 ### Example: Huntercoin
-Huntercoin was essentially the first blockchain. It launched in 2014 and all of the game logic was coded directly into the chain’s software. All code is open source and available to view on GitHub.
+Huntercoin was essentially the first blockchain game. It launched in 2014 and all of the game logic was coded directly into the chain’s software. All code is open source and available to view on GitHub.
 
 As you should expect, a modified version of the game’s UI would allow for variations in graphics but it wouldn’t be allowed to modify the gameplay since all of the logic is on-chain.
 
