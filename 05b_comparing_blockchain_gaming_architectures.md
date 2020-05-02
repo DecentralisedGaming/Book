@@ -83,6 +83,16 @@ This architecture won’t offer any improvements in terms of game complexity or 
   <img src="/images/trilemma/Advanced_Hybrid.png">
 </p>
 
+In the advanced hybrid model, games are decentralised so they will occupy the region labelled as "decentralised" in the triangle shown here. This architecture won't offer improvements in terms of this trilemma, as the limiting factors are the underlying decentralised aspect of the architecture.
+
+However, it is now possible for devices to connect to a centralised service in order to reduce the hassle of the running your own infrastructure. This will reduce barriers to entry and hence boost user adoption rather. In the few games that employ an advanced hybrid architecture, it is essentially solving another problem. However, in the future there may be improvements made that tackle the trilemma presented here.
+
+If a game with this hybrid architecture pushes non-critical parts of game play to a centralised, or even federated, infrastructure then that aspect of gameplay will feel similar to a traditional online game. For example, in Decentraland it is understood that player movement is not critical to gameplay therefore player movement does not need to be protected a blockchain. Consequently, player movement can be shown at a higher speed than with other fully decentralised games where movement must be protected by a blockchain.
+
+Player movement is important for combat games, where the moves and positions of a player must be recorded on-chain in order to prevent cheating. Consequently, this results in slower combat with the current state of blockchain technology. There are potential solutions to this which will be considered in the chapter on scaling.
+
+For comparison, games which are mostly centralised will occupy the lower region labelled respectively in the triangle.
+
 ## References
 
 Blockchain Architecture Overview
