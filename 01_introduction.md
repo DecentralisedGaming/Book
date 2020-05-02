@@ -82,11 +82,10 @@ When exchanging messages across a public network it is essential to use cryptogr
 
 
 
-
 ## What are blockchain games?
-Blockchain games are a subset of decentralised games that make use of blockchain technology. The main reason for using a blockchain is to minimise the amount of trust required in other actors within the network. The result should be improved trust among network participants who are most likely to be the players.
+There is an intersection of blockchain gaming and decentralised gaming, but the two are not the same. The use of a blockchain within a software stack does not guarantee decentralisation as will become clearer in the chapter on the common architectures found in blockchain games. Similarly, a decentralised game may not necessary use a blockchain either. 
 
-While blockchain can be used to create a decentralised game, that isn’t yet the most popular strategy employed. The addition of a blockchain within a software stack does not guarantee decentralisation as will become clearer in the chapter on the common architectures found in blockchain games.
+The focus of this book is upon decentralised games that use a blockchain to enforce decentralisation. The main reason for using a blockchain is to minimise the amount of trust required in other actors within the network. The result should be improved trust among network participants, who are most likely to be the players.
 
 These are the main ways in which blockchains are currently used in gaming:
 
