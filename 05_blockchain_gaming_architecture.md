@@ -11,7 +11,8 @@ The variations within each of these categories may be manifested from the differ
 Simpler chains lack the generality that smart contract chains offer, however in the context of comparing architectures two different chains can be functionally symmetric. For a dedicated gaming chain, it may not be necessary to allow for the generality that smart contract chains offer.
 
 ## Monolithic
-Typically: thick blockchain, thin game client
+**Typically: thick blockchain, thin game client**
+
 In this architecture the processing of the game logic is done entirely inside the blockchain client software. That is to say that the game logic is precompiled before the software is run.
 All actions are stored on-chain and therefore such games can be fully decentralised, providing the underlying blockchain is decentralised. However, it is possible to run a permissioned and private blockchain network.
 
@@ -132,7 +133,7 @@ The Xaya team is currently working on advancing their architecture in such a way
 
 ## Hybrid
 
-**Typically: thin blockchain, thick game clien**
+**Typically: thin blockchain, thick game client**
 
 This architecture is also a layered approach except the upper-layers are split. Doing so provides an option of splitting the decentralised part of the stack from the centralised part. Splitting the stack is a common method that provides some amount of scalability or convenience. It is also possible to move the centralised part of the stack onto decentralised infrastructure which provides a progressive approach to achieving a goal of full decentralisation.
 
