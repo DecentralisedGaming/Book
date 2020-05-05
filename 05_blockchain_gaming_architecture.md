@@ -44,14 +44,14 @@ Huntercoin was essentially the first blockchain game. It launched in 2014 and al
 
 As you should expect, a modified version of the game’s UI would allow for variations in graphics but it wouldn’t be allowed to modify the gameplay since all of the logic is on-chain.
 
-#### Example: Nine Chronicles
+### Example: Nine Chronicles
 This team is creating an MMO RPG game. It is essentially a turn-based 2D side-scroller. Gameplay includes crafting and combat.
 
 The node software and game client came packaged together as a single binary. In the alpha and beta versions of the game, mining was performed by the development team but this should change for the future such that anyone can mine.
 
 Similar to huntercoin, the Planetarium team who develop Nine Chronicles use a monolithic architecture but are looking to implement a  hybrid (decentralised) architecture in the future.
 
-#### Example: Ethernal World
+### Example: Ethernal World
 Ethernal World is a Roguelike game that is built entirely using smart contracts that run on an Ethereum sidechain. The map is generated as players discover the new rooms. Currently in alpha, the map is a grid of square rooms, but the content of the rooms is not known until a player first discovers them. One player action currently takes one block-time, as all actions are essentially transactions.
 
 One lesser known point is that the dev team currently cache the data (it's all on-chain) on a server that helps to improve user experience but introduces some centralisation. Ultimately, as all data is on-chain then anyone could play directly. In the future, it is hoped that the server code is also made open-source. This would bring Ethernal into the architecture of "advanced hybrid" mentioned below.
