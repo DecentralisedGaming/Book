@@ -33,6 +33,7 @@ For games like poker or blackjack, they are simple enough that each blockchain c
 <p align="center">
   <img src="/images/architecture/Decentralised_Monolithic.png">
 </p>
+
 Figure 1. Decentralised monolithic: all game logic is processed at layer 1
 
 
@@ -65,6 +66,7 @@ The most obvious variation of the monolithic model is to encapsulate the game ru
 <p align="center">
   <img src="/images/architecture/Decentralised_Monolithic_SC.png">
 </p>
+
 Figure 2. If the entire game fits inside a smart contract it is monolithic.
 
 
@@ -155,6 +157,7 @@ The game state will be stored on a central server run by the developers and requ
 <p align="center">
   <img src="/images/architecture/Simple_Hybrid.png">
 </p>
+
 Figure 5: Hybrid architecture: off-chain game client and UI is minimally coupled to the blockchain.
 
 One contention here is that traditional games tend to be closed source, which differs from the spirit of blockchain technology. Developers may feel that this is favourable as it prevents the game from being easily copied. This comes with a well-tested revenue model that we see in current online games, so it is understandable that blockchain game developers may want to emulate this model.
@@ -186,6 +189,7 @@ This is to say that the layered approach can work alongside the simple hybrid ap
 <p align="center">
   <img src="/images/architecture/Advanced_Hybrid.png">
 </p>
+
 Figure 6: Advanced hybrid architecture: game assets are stored off-chain but on a decentralised hosting solution.
 
 #### Example: Decentraland
@@ -212,6 +216,7 @@ The Xaya team are providing this functionality as open-source libraries so in th
 <p align="center">
   <img src="/images/architecture/Hybrid_Xaya.png">
 </p>
+
 Figure 7: Xaya's latest architecture allows for optional decentralisation which allows for low-powered devices to play their games.
 
 ## References
