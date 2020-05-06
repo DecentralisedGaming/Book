@@ -21,4 +21,8 @@ The style of writing that fits best is concise, factual, best to avoid pronouns 
 
 
 ## Contributors
-[@DecentralisedGaming](https://github.com/DecentralisedGaming)
+- [DecentralisedGaming](https://github.com/DecentralisedGaming)
+- [Codie-Petersen](https://github.com/Codie-Petersen)
+- Andy from [Xaya](https://github.com/xaya)
+- Daniel from [Xaya](https://github.com/xaya)
+- [KillariDev](https://github.com/KillariDev)
