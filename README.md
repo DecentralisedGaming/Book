@@ -15,9 +15,9 @@ The following list is the proposed structure of the book. Currently, it is a wor
 
 ## technical
 ### back-end
-* **[06 - Blockchain gaming architecture](https://github.com/DecentralisedGaming/Book/blob/master/05_blockchain_gaming_architecture.md)**
-  * **[06b - Comparing_blockchain_gaming_architectures](https://github.com/DecentralisedGaming/Book/blob/master/05b_comparing_blockchain_gaming_architectures.md)**
-* **[07 - Randomness, determinism and fault tolerance](https://github.com/DecentralisedGaming/Book/blob/master/06_%20randomness_determinism_fault_tolerance.md)**
+* **[06 - Blockchain gaming architecture](https://github.com/DecentralisedGaming/Book/blob/master/06_blockchain_gaming_architecture.md)**
+  * **[06b - Comparing_blockchain_gaming_architectures](https://github.com/DecentralisedGaming/Book/blob/master/06b_comparing_blockchain_gaming_architectures.md)**
+* **[07 - Randomness, determinism and fault tolerance](https://github.com/DecentralisedGaming/Book/blob/master/07_randomness_determinism_fault_tolerance.md)**
 * **08_token economics**
 * **09_funding_and_payments**
 * **10_governance**
