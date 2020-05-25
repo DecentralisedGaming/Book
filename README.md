@@ -6,27 +6,28 @@ The following list is the proposed structure of the book. Currently, it is a wor
 
 # Structure
 ## non-technical
-* **[00_preface](https://github.com/DecentralisedGaming/Book/blob/master/00_preface.md)**
-* **[01_introduction](https://github.com/DecentralisedGaming/Book/blob/master/01_introduction.md)**
-* **[02_online_gaming_problems](https://github.com/DecentralisedGaming/Book/blob/master/02_online_gaming_problems.md)**
-* **[03_history_of_blockchain_games](https://github.com/DecentralisedGaming/Book/blob/master/03_history_of_blockchain_games.md)**
-* **04_pros/cons**
+* **[00 - Preface](https://github.com/DecentralisedGaming/Book/blob/master/00_preface.md)**
+* **[01 - Introduction](https://github.com/DecentralisedGaming/Book/blob/master/01_introduction.md)**
+* **[02 - Online gaming problems](https://github.com/DecentralisedGaming/Book/blob/master/02_online_gaming_problems.md)**
+* **[03 - History of blockchain games](https://github.com/DecentralisedGaming/Book/blob/master/03_history_of_blockchain_games.md)**
+* **[04 - Advantages of building a decentralised game](https://github.com/DecentralisedGaming/Book/blob/master/04_advantages_of_building_a_decentralised_game.md)**
+* **05 - Challenges of building a decentralised game**
 
 ## technical
 ### back-end
-* **[05_blockchain_gaming_architecture](https://github.com/DecentralisedGaming/Book/blob/master/05_blockchain_gaming_architecture.md)**
-  * **[05b_comparing_blockchain_gaming_architectures](https://github.com/DecentralisedGaming/Book/blob/master/05b_comparing_blockchain_gaming_architectures.md)**
-* **[06_randomness, determinism and fault tolerance](https://github.com/DecentralisedGaming/Book/blob/master/06_%20randomness_determinism_fault_tolerance.md)**
-* **07_token economics**
-* **08_funding_and_payments**
-* **09_governance**
-* **10_distibuted action verification**   
-* **11_scaling**
+* **[06 - Blockchain gaming architecture](https://github.com/DecentralisedGaming/Book/blob/master/05_blockchain_gaming_architecture.md)**
+  * **[06b - Comparing_blockchain_gaming_architectures](https://github.com/DecentralisedGaming/Book/blob/master/05b_comparing_blockchain_gaming_architectures.md)**
+* **[07 - Randomness, determinism and fault tolerance](https://github.com/DecentralisedGaming/Book/blob/master/06_%20randomness_determinism_fault_tolerance.md)**
+* **08_token economics**
+* **09_funding_and_payments**
+* **10_governance**
+* **1X_distibuted action verification**   
+* **1X_scaling**
 
 ### front-end
-* **12_user_experience_(gameplay)**
-* **13_user_interace_and_graphics**
-* **14_wallets**
+* **1X_user_experience_(gameplay)**
+* **1X_user_interace_and_graphics**
+* **1X_wallets**
 
 ## appendices
 * **glossary**
