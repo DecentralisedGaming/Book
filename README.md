@@ -12,7 +12,7 @@ The following list is the proposed structure of the book. Currently, it is a wor
 * **Chapter 1 - [Introduction](https://github.com/DecentralisedGaming/Book/blob/master/01_introduction.md)**
 * **Chapter 2 - [Online gaming problems](https://github.com/DecentralisedGaming/Book/blob/master/02_online_gaming_problems.md)**
 * **Chapter 3 - [History of blockchain games](https://github.com/DecentralisedGaming/Book/blob/master/03_history_of_blockchain_games.md)**
-* **Chapter4 - [Advantages of building a decentralised game](https://github.com/DecentralisedGaming/Book/blob/master/04_advantages_of_building_a_decentralised_game.md)**
+* **Chapter 4 - [Advantages of building a decentralised game](https://github.com/DecentralisedGaming/Book/blob/master/04_advantages_of_building_a_decentralised_game.md)**
 * **Chapter 5 - Challenges of building a decentralised game**
 
 ## technical
