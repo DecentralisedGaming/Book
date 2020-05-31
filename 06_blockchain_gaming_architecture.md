@@ -34,7 +34,7 @@ For games like poker or blackjack, they are simple enough that each blockchain c
   <img src="/images/architecture/Decentralised_Monolithic.png">
 </p>
 
-Figure 1. Decentralised monolithic: all game logic is processed at layer 1
+**Figure 1**: Decentralised monolithic: all game logic is processed at layer 1
 
 
 The monolithic architecture scales poorly, so it will rarely make sense to put all of the game’s logic directly into the node software (aka the blockchain client). It is also too optimistic to expect the next generation of blockchains to hold a lot of complex game logic directly inside the node software since it most likely requires a lot of data to sit on-chain. Even if the logic is pre-compiled and packaged as part of the node software, rather than as smart contracts, it is unlikely to be enough of an efficiency gain.
@@ -67,7 +67,7 @@ The most obvious variation of the monolithic model is to encapsulate the game ru
   <img src="/images/architecture/Decentralised_Monolithic_SC.png">
 </p>
 
-Figure 2. If the entire game fits inside a smart contract it is monolithic.
+**Figure 2**: If the entire game fits inside a smart contract it is monolithic.
 
 
 There aren’t many examples of this particular variant. Smart contracts are typically limited in their complexity so getting a full game into a set of contracts isn’t easy.
@@ -98,7 +98,7 @@ The blockchain ensures that all players have the same record of player actions. 
 <p align="center">
   <img src="/images/architecture/Simple_Layered.png">
 </p>
-Figure 3. Decentralised layered: The game client contains the game logic but must read the on-chain data to function.
+**Figure 3**: Decentralised layered: The game client contains the game logic but must read the on-chain data to function.
 
 
 
@@ -123,7 +123,7 @@ While the chain stores all player actions next to their registered names, the so
   <img src="/images/architecture/Xaya_architecture_detailed.png">
 </p>
 
-Figure 4: A detailed look at the Xaya architecture. The chain is layer 1, everything else is layer 2 (or higher).
+**Figure 4**: A detailed look at the Xaya architecture. The chain is layer 1, everything else is layer 2 (or higher).
 
 Layers of the Xaya tech stack
 * At the baselayer is a Namecoin-like blockchain.
@@ -158,7 +158,7 @@ The game state will be stored on a central server run by the developers and requ
   <img src="/images/architecture/Simple_Hybrid.png">
 </p>
 
-Figure 5: Hybrid architecture: off-chain game client and UI is minimally coupled to the blockchain.
+**Figure 5**: Hybrid architecture: off-chain game client and UI is minimally coupled to the blockchain.
 
 One contention here is that traditional games tend to be closed source, which differs from the spirit of blockchain technology. Developers may feel that this is favourable as it prevents the game from being easily copied. This comes with a well-tested revenue model that we see in current online games, so it is understandable that blockchain game developers may want to emulate this model.
 
@@ -190,7 +190,7 @@ This is to say that the layered approach can work alongside the simple hybrid ap
   <img src="/images/architecture/Advanced_Hybrid.png">
 </p>
 
-Figure 6: Advanced hybrid architecture: game assets are stored off-chain but on a decentralised hosting solution.
+**Figure 6**: Advanced hybrid architecture: game assets are stored off-chain but on a decentralised hosting solution.
 
 #### Example: Decentraland
 Decentraland launched in February 2020 and is one of the first games to feature blockchain technology as well as decentralised hosting and decentralised governance. This means that the community can operate their own blockchains nodes, content nodes, and participate in the governance of the network.
@@ -213,11 +213,21 @@ Naturally, the development team can run their own servers too that could be used
 
 The Xaya team are providing this functionality as open-source libraries so in theory, any game developer could adopt their platform and immediately make use of these benefits.
 
+The following picture shows the stack of Xaya's latest architecture:
+
 <p align="center">
   <img src="/images/architecture/Hybrid_Xaya.png">
 </p>
 
-Figure 7: Xaya's latest architecture allows for optional decentralisation which allows for low-powered devices to play their games.
+**Figure 7**: Xaya's latest architecture allows for optional decentralisation which allows for low-powered devices to play their games.
+
+The following picture shows a network diagram of Xaya's latest architecture:
+
+<p align="center">
+  <img src="/images/architecture/Xaya_network_diagram.png">
+</p>
+            
+**Figure 8**:  Xaya's latest architecture shown as a network diagram. Source: [Xaya Architecture — Under the Hood](https://xaya.io/xaya-architecture%e2%80%8a-%e2%80%8aunder-the-hood/) 
 
 ## References
 
@@ -243,12 +253,12 @@ CryptoKitties
 Substrate Kitties
 1. [Substrate Kitties Workshop](https://www.shawntabrizi.com/substrate-collectables-workshop/#/)
 
-Taurion
+Taurion / Xaya
 1. [Taurion Website](https://taurion.io/)
 1. [Xaya architecture, including description of the GSP](https://github.com/xaya/xaya_tutorials/wiki/The-Game-Processor)
 1. [Xaya presenting on their architecture and games](https://www.youtube.com/watch?v=PNILIOkogUQ)
-1. Architecture diagrams from private discussion with the Xaya team.
-
+1. Architecture (stack) diagrams created from private discussion with the Xaya team.
+1. [Xaya Architecture — Under the Hood](https://xaya.io/xaya-architecture%e2%80%8a-%e2%80%8aunder-the-hood/)
 
 Forgotten Artifacts
 1. [Forgotten Artifacts Website](https://forgottenartifacts.io/)
