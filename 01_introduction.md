@@ -34,7 +34,7 @@ This is a general description of a game and does not distinguish between video g
 
 As an additional point of reference, here are the opening lines to the Video Game article on Wikipedia:
 
-> "A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether they are also a form of art is a matter of dispute." - [Source: Video game (Wikpedia)](https://en.wikipedia.org/wiki/Video_game)
+> "A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether they are also a form of art is a matter of dispute." - [Source: Video game (Wikipedia)](https://en.wikipedia.org/wiki/Video_game)
 
 Through-out this book the use of "computer game" will be used instead of "Video game".
 
@@ -128,7 +128,7 @@ The promise
 
 What is Gaming?
 * [Game (Wikipedia)](https://en.wikipedia.org/wiki/Game)
-* [Video game (Wikpedia)](https://en.wikipedia.org/wiki/Video_game)
+* [Video game (Wikipedia)](https://en.wikipedia.org/wiki/Video_game)
 
 What are decentralised games?
 * [Decentralisation (Wikipedia)](https://en.wikipedia.org/wiki/Decentralization)
