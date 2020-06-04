@@ -1,13 +1,13 @@
 # Introduction
 
 ## The promise
-Back in 2017, the cryptocurrency prices surged to an all-time high, bitcoin went north of $20,000 and ether above $1,000 per token. During the mania of rising prices, a new funding model for open-source software (OSS) came to the forefront: the Initial Coin Offering (ICO). While there were earlier ICOs, 2017 was the year when they came to prominence with quite a few projects raising over $100 million each. 
+Back in 2017, the cryptocurrency prices surged to an all-time high, [bitcoin went north of $20,000](https://www.coindesk.com/900-20000-bitcoins-historic-2017-price-run-revisited) and [ether above $1,000 per token](https://techcrunch.com/2018/01/04/ethereum-breaks-new-record-by-reaching-1000-for-the-first-time/). During the mania of rising prices, a new funding model for [open-source software](https://en.wikipedia.org/wiki/Open-source_software) (OSS) came to the forefront: the [Initial Coin Offering](https://en.wikipedia.org/wiki/Initial_coin_offering) (ICO). While there were earlier ICOs, 2017 was the year when they came to prominence with quite a few projects raising over $100 million each. 
 
-The frictionless ease with which to raise money was a boon to OSS funding, but this euphoria of fundraising encouraged lazy due diligence. Many projects who raised funds in this period will never deliver on their promises.  However, the ICO model should not be discarded because of poor practices seen during 2017. The ease-of-funding that ICOs brought was something that was sorely needed.
+The frictionless ease with which to raise money was a boon to OSS funding, but this euphoria of fundraising encouraged lazy due diligence. Many projects who raised funds in this period will never deliver on their promises. However, the ICO model should not be discarded because of [poor practices seen during 2017](https://www.coindesk.com/report-more-than-three-quarters-of-icos-in-2017-were-scams). The ease-of-funding that ICOs brought was something that was sorely needed.
 
 This increase in funding to OSS has also raised the profile of game development teams operating in this niche industry called “blockchain”. Linking computer games to electronic money was already possible (online games have their own currencies) and so a natural step was to link computer games to cryptocurrencies. Often all games that are linked to cryptocurrencies are lumped together and called “blockchain games” although the reality is more nuanced as will be explored in this book.
 
-The first question newcomers will ask is “why?”. Why should computer games be linked to blockchains? Blockchain games offer the promise of true ownership, where players can demonstrate that their gaming assets are under their control with strong cryptographic guarantees. Assets can be represented by tokens on a blockchain and the ownership of such tokens is provable to anyone in a public manner.
+The first question newcomers will ask is “why?”. Why should computer games be linked to blockchains? Blockchain games offer the promise of [true ownership](04_advantages_of_building_a_decentralised_game.md#true-ownership), where players can demonstrate that their gaming assets are under their control with strong cryptographic guarantees. Assets can be represented by tokens on a blockchain and the ownership of such tokens is provable to anyone in a public manner.
 
 Not only can ownership be easily proven, but blockchain technology enforces a set of rules that prevents the tokens from being stolen. This is the first promise of blockchain gaming. However, a more complicated reality is found upon digging deeper. There is a nuance in the narrative of true ownership: owning a token is not the same as owning an asset. While a blockchain can enforce true ownership of a token, it does not inherently enforce the true ownership of an asset.
 
@@ -27,28 +27,35 @@ Games should be fun. That's why we play them. The best games are also engaging a
 
 As a point of comparison, the following is taken from the "Game" article on Wikipedia:
 
-"A game is a structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool. Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements. However, the distinction is not clear-cut, and many games are also considered to be work (such as professional players of spectator sports or games) or art (such as jigsaw puzzles or games involving an artistic layout such as Mahjong, solitaire, or some video games)."
-[Source](https://en.wikipedia.org/wiki/Game)
+> "A game is a structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool. Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements. However, the distinction is not clear-cut, and many games are also considered to be work (such as professional players of spectator sports or games) or art (such as jigsaw puzzles or games involving an artistic layout such as Mahjong, solitaire, or some video games)."
+[Source: Game (Wikipedia)](https://en.wikipedia.org/wiki/Game)
 
 This is a general description of a game and does not distinguish between video games and non-electronic games. What was true in the past should still be true now and well into the future regardless of the medium by which games are played.
 
 As an additional point of reference, here are the opening lines to the Video Game article on Wikipedia:
 
-"A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether they are also a form of art is a matter of dispute." - [Source](https://en.wikipedia.org/wiki/Video_game)
+> "A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether they are also a form of art is a matter of dispute." - [Source: Video game (Wikpedia)](https://en.wikipedia.org/wiki/Video_game)
 
 Through-out this book the use of "computer game" will be used instead of "Video game".
 
 ## What are decentralised games?
-You might expect the first word here to be "blockchain"; however, before getting to that explanation, it is worth trying to understand what is meant by a decentralised game.
+You might expect the first word here to be "blockchain"; however, before getting to that explanation, it is worth trying to understand what is meant by a decentralised game. Naturally, let's take the definition of a game from the previous section and then consider what is meant by decentralisation and therefore what are the necessary requirements that must fulfiled to have a decentralised game.
 
-Naturally, we inherit the definition of a game from the previous section then consider the necessary requirements to fulfil for some definition of decentralisation.
+### What is decentralisation?
+
+> "Decentralisation is the process by which the activities of an organization, particularly those regarding planning and decision making, are distributed or delegated away from a central, authoritative location or group.
+
+[Source: Decentralisation (Wikipedia)](https://en.wikipedia.org/wiki/Decentralization)
+
+### Defining a decentralised game
+Combining these two definitions together we can derive a potential definition of a decentralised game:
 
 Any game that features distributed planning and authority, and is designed to resist single points of failure could be described as "decentralised". In this book, the usage of the phrase “decentralised game” will refer almost exclusively to games that require a computer or similar electronic device.
 
 Let's explore with an example.
 
 ### Example: Chess
-Would play-by-mail chess fit with the definition of a decentralised game? Probably. What about chess played using a website or software? Maybe, but there are more questions here. Play-by-mail is decentralised since there is no requirement for a central planner and the games are 1 versus 1. If playing by email then disputes are about whether a move was sent and an opponent claimed not to receive it. Dispute resolution is not ideal and matches are likely to be abandoned. The lack of good dispute resolution makes such a game a poor choice for including monetary reward.
+Would [play-by-mail](https://en.wikipedia.org/wiki/Play-by-mail_game) chess fit with the definition of a decentralised game? Probably. What about chess played using a website or software? Maybe, but there are more questions here. Play-by-mail is decentralised since there is no requirement for a central planner and the games are 1 versus 1. If playing by email then disputes are about whether a move was sent and an opponent claimed not to receive it. Dispute resolution is not ideal and matches are likely to be abandoned. The lack of good dispute resolution makes such a game a poor choice for including monetary reward.
 
 In theory, using a web server to record the chess moves should mean that players can't pretend they didn't receive another player's moves; however, this still requires trusting the server which is likely run by a trusted third-party. The history of moves could be public such that members of the chess community could monitor for foul play such that bad players and bad game servers will receive a negative reputation for incorrect behaviour.
 
@@ -72,7 +79,8 @@ None of these points pre-suppose the use of a blockchain; however, blockchain te
 ## What is a blockchain?
 While this book assumes knowledge of blockchain technology, it is worth recapping a basic definition as a point of clarity. There are differing definitions and differing levels of purity.
 
-“A blockchain is a growing list of records, called blocks, that are linked using cryptography.” - [Source](https://en.wikipedia.org/wiki/Blockchain)
+> “A blockchain is a growing list of records, called blocks, that are linked using cryptography.” - 
+[Source: Blockchain (Wikipedia)](https://en.wikipedia.org/wiki/Blockchain)
 
 This list is a chronological record of all transactions (changes in a ledger). Cryptographic signatures prove who made the transaction while cryptographic checksums ensure that errors can be detected. The transaction records are publicly available over a peer-to-peer network, although creating a private network is also possible. 
 
@@ -91,15 +99,15 @@ These are the main ways in which blockchains are currently used in gaming:
 
 * Initial Coin Offering: a crowdsale of tokens to raise funds for development.
 * In-game payment tokens: the ability to purchase game assets with a native token.
-* Non-Fungible Tokens (NFTs): provide the ability to uniquely track game items and ensure that the items are distinct from each other.
+* [Non-Fungible Tokens](https://en.wikipedia.org/wiki/Non-fungible_token) (NFTs): provide the ability to uniquely track game items and ensure that the items are distinct from each other.
 * To maintain a record of actions (also referred to as moves): this enables a transparent economy and prevents cheating.
 
 The last point is unique to blockchain technology and underpins decentralised action verification. This is the ability to prevent cheating by ensuring that all participants must follow the same set of rules. If all players have a full set of actions of every other player then it will be possible to distinguish which attempted actions are valid and which are not.
 
 Beyond what is shown in the above list, there are new features and functionality which are only possible in a decentralised game:
 
-* Games owned and governed by the players (via a DAO).
-* Gaming guilds can be DAOs with a treasury and perhaps even a legal structure (e.g. a mutual or a company etc).
+* Games owned and governed by the players (via a [decentralised autonomous organization](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) (DAO)).
+* [Gaming guilds](https://en.wikipedia.org/wiki/Clan_(video_games)) can be DAOs with a treasury and perhaps even a legal structure (e.g. a [mutual](https://en.wikipedia.org/wiki/Mutual_organization) or a [company](https://en.wikipedia.org/wiki/Company) etc).
 * Forking game communities to preserve character histories.
 * A reduction in hosting and bandwidth costs for the development should the network become decentralised.
 * Censorship resistance
@@ -109,3 +117,30 @@ Beyond what is shown in the above list, there are new features and functionality
 In this chapter, there was an overview of what a game is and outlined some reasons as to why we might want to make a game decentralised, as well as outline the potential benefits of using a blockchain. While these should sound like obvious benefits, there also a cost in adding complexity.
 
 There needs to be a good reason to consider the additional hassle of working with blockchain technology. The benefits will be clearer after looking at the problems with existing games. The next chapter will provide a deeper dive on this topic.
+
+# References
+The promise
+* [From $900 to $20,000: Bitcoin’s Historic 2017 Price Run Revisited - Coindesk](https://www.coindesk.com/900-20000-bitcoins-historic-2017-price-run-revisited)
+* [Ethereum breaks new record by reaching $1,000 for the first time](https://techcrunch.com/2018/01/04/ethereum-breaks-new-record-by-reaching-1000-for-the-first-time/)
+* [Open-source software (Wikipedia)](https://en.wikipedia.org/wiki/Open-source_software) 
+* [Initial Coin Offering (Wikipedia)](https://en.wikipedia.org/wiki/Initial_coin_offering)
+* [Report: More Than Three-Quarters of ICOs Were Scams - Coindesk](https://www.coindesk.com/report-more-than-three-quarters-of-icos-in-2017-were-scams)
+
+What is Gaming?
+* [Game (Wikipedia)](https://en.wikipedia.org/wiki/Game)
+* [Video game (Wikpedia)](https://en.wikipedia.org/wiki/Video_game)
+
+What are decentralised games?
+* [Decentralisation (Wikipedia)](https://en.wikipedia.org/wiki/Decentralization)
+* [play-by-mail game (Wikipedia)](https://en.wikipedia.org/wiki/Play-by-mail_game)
+
+What is a blockchain?
+* [Blockchain (Wikipedia)](https://en.wikipedia.org/wiki/Blockchain)
+* [From Bitcoin to Polkadot: A brief history of consensus and finality in blockchains](https://medium.com/polkadot-network/consensus-and-finality-in-blockchains-21b1f634fd00)
+
+What are blockchain games?
+* [Non-Fungible Tokens (Wikipedia)](https://en.wikipedia.org/wiki/Non-fungible_token)
+* [Decentralised autonomous organization (Wikipedia)](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization)
+* What are gaming guilds: [Clan (video games) (Wikipedia)](https://en.wikipedia.org/wiki/Clan_(video_games))
+* [Mutual organization (Wikipedia)](https://en.wikipedia.org/wiki/Mutual_organization)
+* [Company (Wikipedia)](https://en.wikipedia.org/wiki/Company)
