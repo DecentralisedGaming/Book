@@ -100,7 +100,7 @@ For a decentralised game that uses a blockchain the transactions, or rather play
 This should eliminate within-protocol cheating, such as item duplication or code injection, but it will not eliminate out-of-protocol cheating. The latter could include botting or even simply lying to fellow community members. Blockchain technology will not be able to enforce all social contracts, so there is always an element of trust between players, however, if blockchain technology can eliminate item duplication (a double-spend) and eliminate invalid actions then it is already a huge step forward from what current online games can offer.
 
 
-## References
+# References
 
 What online games got right and their problems
 * [Blockchain gaming: putting the state on-chain](https://medium.com/@edward.thomson/blockchain-gaming-putting-the-state-on-chain-cc3915090547)
