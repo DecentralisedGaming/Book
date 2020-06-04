@@ -126,13 +126,13 @@ Large Transactions
 * [Bloodbath of B-R5RB - eveonline](https://www.eveonline.com/article/the-bloodbath-of-b-r5rb)
 
 Problem of closed source
-* [Proprietary software (Wikipedia)](https://en.wikipedia.org/wiki/Proprietary_software))
+* [Proprietary software (Wikipedia)](https://en.wikipedia.org/wiki/Proprietary_software)
 
 Forking
-* Fork (software development) - https://en.wikipedia.org/wiki/Fork_(software_development)
-* Fork (blockchain) - https://en.wikipedia.org/wiki/Fork_(blockchain)
-* Preserving gaming communities with blockchain technology - https://medium.com/@edward.thomson/fork-off-preserving-gaming-communities-with-blockchain-technology-4d90c04d0b8e
+* [Fork (software development)](https://en.wikipedia.org/wiki/Fork_(software_development))
+* [Fork (blockchain)](https://en.wikipedia.org/wiki/Fork_(blockchain))
+* [Preserving gaming communities with blockchain technology](https://medium.com/@edward.thomson/fork-off-preserving-gaming-communities-with-blockchain-technology-4d90c04d0b8e)
 
 Action verification
-* The Game Processor - https://github.com/xaya/xaya_tutorials/wiki/The-Game-Processor
-* Libplanet design - https://docs.libplanet.io/0.5.3/articles/design.html
+* [The Game Processor](https://github.com/xaya/xaya_tutorials/wiki/The-Game-Processor)
+* [Libplanet design](https://docs.libplanet.io/0.5.3/articles/design.html)
