@@ -15,7 +15,7 @@ For each of the challenges listed, possible solutions are offered too. A huge ca
 ## Determinism
 To achieve the level of fault tolerance provided by blockchains they require that all nodes in the network eventually agree upon the history of transactions, or for decentralised games that all nodes eventually agree upon the full history of actions. This means that by necessity, blockchains must be deterministic and that the result of any calculation is the same regardless of the underlying hardware.
 
-That’s not to say that randomness is not important, but rather we must have consensus on the result of an action. This presents an interesting problem for randomness, but this is left for a later chapter.
+That’s not to say that randomness is not important, but rather we must have consensus on the result of an action. This presents an interesting problem for randomness, but this is left for a later chapter ([Randomness, determinism and fault tolerance](07_randomness_determinism_fault_tolerance.md)).
 
 ### Solution (Determinism)
 Determinism is something of a ‘fact’ for decentralised games that use a blockchain as their ‘spine’. It has implications for architecture and implementation, but less for the game design. While it may be fine to have a reasonable degree of imprecision for current online games, it needs to be addressed explicitly in the implementation of any blockchain game.
@@ -35,7 +35,7 @@ On a related note, it requires consideration of how items and in-game currency i
 Solution (Economics and Autonomy)
 The degree of autonomy and upgradeability is dependent on the architecture chosen and the level of decentralisation chosen. It is possible to upgrade a game where most of the computation is off-chain without affecting the need to change the underlying node software. However, users may still reject the upgrade.
 
-Consideration of upgradeability and governance is outlined later in this chapter. Economics will be covered in its own chapter.
+Considerations of upgradeability and governance are outlined later in this chapter. Economics will be covered in its own chapter.
 
 
 ## Scalability
@@ -54,7 +54,7 @@ One possible solution for vertical scaling is the use of [game (state) channels]
 
 Achieving high transactions per second for a large number of players concurrently will require additional advancements in blockchain technology. Potentially a hybrid solution that can combine a vertical scaling solution with a horizontal scaling solution.
 
-As can be expected, there are often trade-offs between speed (actions per second), massiveness (number of concurrent players), complexity, and the amount of decentralisation. An overview of the architectural trade-offs are presented in Chapter 6 part b (“Comparing blockchain gaming architectures”), while an overview of scaling solutions is presented in a later chapter on scaling.
+As can be expected, there are often trade-offs between speed (actions per second), massiveness (number of concurrent players), complexity, and the amount of decentralisation. An overview of the architectural trade-offs are presented in Chapter 6 part b ([Comparing blockchain gaming architectures](06b_comparing_blockchain_gaming_architectures.md)), while an overview of scaling solutions is presented in a later chapter on scaling.
 
 Additionally, clever game mechanics can hide delays to make them part of the experience. This allows weaknesses in technology to be hidden in such a way that players are not upset.
 
@@ -87,7 +87,7 @@ On Ethereum, should a developer choose to [upgrade a smart contract](https://doc
 This point on upgradability would apply to any decentralised game with a monolithic architecture. If the developers of the game are also the developers of the blockchain network then they will have a greater ability to influence the direction of development and make alterations to the network’s global state.
 
 ### Solution (Upgrades)
-Taking the approach of a layered architecture (described in Chapter 5), where most of the game’s computation is off-chain, then greater flexibility is possible. Even if the data stored on-chain is immutable, the data can be tagged with different version numbers which allow the application to remain flexible. The full history changes to the software would still be public, but there would be no requirement to modify the blockchain node software.
+Taking the approach of a layered architecture (described in the [chapter on architecture](06_blockchain_gaming_architecture.md#layered)), where most of the game’s computation is off-chain, then greater flexibility is possible. Even if the data stored on-chain is immutable, the data can be tagged with different version numbers which allow the application to remain flexible. The full history changes to the software would still be public, but there would be no requirement to modify the blockchain node software.
 
 Upgrading the blockchain node software stack is possible too, even while it is running, as we see in Polkadot.
 
@@ -153,7 +153,7 @@ If a game requires off-chain data it should be accurate and attestable. Ideally,
 In the context of blockchain technology, typically the [oracle problem](https://medium.com/@teexofficial/what-are-oracles-smart-contracts-the-oracle-problem-911f16821b53) is seen as that of putting real-world data on-chain, but the [problem set is actually wider](https://en.wikipedia.org/wiki/Oracle_machine).
 
 ### Solution (Oracles)
-The best well known teams working on the decentralised oracle problem are [Chainlink](https://docs.chain.link/docs/what-is-chainlink) and [Provable](https://provable.xyz/) (previously Oricalize). Their algorithm or something similar seems like a good candidate for solving this issue.
+The best well known teams working on the decentralised oracle problem are [Chainlink](https://docs.chain.link/docs/what-is-chainlink) and [Provable](https://provable.xyz/) (previously Oraclize). Their algorithm or something similar seems like a good candidate for solving this issue.
 
 
 ##  Usability
