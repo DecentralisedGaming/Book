@@ -3,7 +3,7 @@
 ## Why does this book need to be written?
 The goal of this book is to be a useful source of information on blockchain game technology. The intention is to explain how components of the technology work and inform how to make better design decisions, so it should serve as a great point of reference but the intent is not to explain how to actually build a blockchain game.
 
-The ultimate goal of improving knowledge around decentralised gaming is to allow the production of complex online games that have the same complexity as games we already play, but instead to use decentralised architecture.
+The ultimate goal of improving knowledge around decentralised gaming is to encourage the production of complex online games that have the same complexity as games we already play, but with a decentralised architecture.
 
 To date, there isn't a book that covers this specific topic. There is a lack of good design documentation, and the number of technical blogs that go into any detail are fairly minimal. While blogs tend to be great at introducing complex ideas, they are not good as points of reference. It is difficult to remember all points covered in a blog and linking directly to a particular paragraph is impossible.
 
