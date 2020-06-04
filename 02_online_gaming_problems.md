@@ -20,13 +20,13 @@ The downsides are outlined in this chapter while later chapters explore the nuan
 ## Business case for online games
 As a quick aside to the discussion on online games, it is worth noting that the games industry has increased in value over the last decade. Naturally, mobile gaming took off with the advent of smartphones, but desktop games are still proving popular and showing growth. While blockchain gaming on a mobile device is possible, playing a fully decentralised game is more difficult. Trade-offs are required to enable decentralised gaming on a device of limited computational resources.
 
-In 2018, the global video games market was valued at around $134.9bn. While in 2019, it was valued at $152.1bn. Market research firm Newzoo expects this market to grow to $198bn by 2022.
+In 2018, the global video games market was [valued at around $134.9bn](https://newzoo.com/insights/articles/newzoo-cuts-global-games-forecast-for-2018-to-134-9-billion/). While in 2019, it was [valued at $152.1bn](https://newzoo.com/products/reports/global-games-market-report/). Market research firm Newzoo expects this market to grow to [$198bn by 2022](https://newzoo.com/products/reports/global-games-market-report/).
 
 
 ## The main problems with online games
 While online games are popular and show an expanding marketplace, there are several problems which ultimately lead to dissatisfaction because the players have limited influence over their own accounts, gaming assets, or the direction of the game that they play.
 
-The main reason for the limit in influence is due to the centralised client-server architecture. Consequently, the relationship between the player base and developers could be summarised as “the players pay for the privilege of accessing the game”. The payments cover the costs of development (both initial and ongoing) and the costs of hosting the game servers.
+The main reason for the limit in influence is due to the centralised [client-server architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). Consequently, the relationship between the player base and developers could be summarised as “the players pay for the privilege of accessing the game”. The payments cover the costs of development (both initial and ongoing) and the costs of hosting the game servers.
 
 It is only fair that developers earn money for their development efforts and can cover costs for hosting the servers. It is also fair for the company to make a profit and thrive. However, the nature of the relationship gives most of the power to the development team which seems unfair given that it is the players who are ultimately paying for the games.
 
@@ -41,7 +41,7 @@ This power dynamic that’s inherited from the architecture results in a few pro
 ### Problems of ownership
 The problem ownership in online games stems from the nature of the architecture. The relationship of the player’s computer to the server is mirrored in the relationship between the player and the development team.
 
-Players pay to access the game, but all the game items (the assets) are held on the servers owned by the development team. The end-user license agreement (EULA) will likely point out that the game items are not owned by the player. The artwork and the game code are traditionally under a closed-source license too.
+Players pay to access the game, but all the game items (the assets) are held on the servers owned by the development team. The end-user license agreement (EULA) will likely point out that the [game items are not owned by the player](https://www.reuters.com/article/us-global-videogames-property-analysis-t/virtual-goldmine-in-game-goods-fuel-debate-over-digital-ownership-idUSKBN1Y0032). The artwork and the game code are traditionally under a [closed-source license](https://en.wikipedia.org/wiki/Proprietary_software) too.
 
 While players are enjoying the game they are happy to play and be part of this relationship. However, when a player no longer wants to play, perhaps the wish to leave for some reason then there is a problem. Similarly, should the development company go bankrupt, the servers will disappear and all of the gaming assets and the players’ histories will disappear too.
 
@@ -50,24 +50,24 @@ This is a huge loss for players who spend hundreds or even thousands of hours pa
 To illustrate this risk it is worth to use a few real examples where players have spent thousands of dollars on gaming items.
 
 #### Player Sells Virtual Resort for $635,000
-An asteroid in the game Entropia Universe was originally purchased for $100,000. This was a Guinness World record at the time in 2006. Later the asteroid was split up and sold for a total value of $635,000.
+An asteroid in the game Entropia Universe was originally purchased for $100,000. This was a Guinness World record at the time in 2006. Later the asteroid was split up and sold for a [total value of $635,000](https://www.prnewswire.com/news-releases/planet-calypso-player-sells-virtual-resort-for-63500000-usd-107426428.html).
 
 These are the largest transactions ever seen in any online game and while they are large, they are still substantially less than the total value seen transacting across blockchain networks (which is a younger technology). The trust models are different, but it is clear that the less trust required the greater the transaction values can be.
 
 #### Bloodbath of B-R5RB
-This was a giant battle in EVE Online. In such battles, the spaceships are destroyed, which means the players incur real-world losses too. The estimated real-world value of all losses was circa $300,000. Interestingly, in traditional gaming architecture, the developers could undelete some or all of the lost items. Should they only recover some of the lost items then this could show bias.
+This was a giant battle in EVE Online. In such battles, the spaceships are destroyed, which means the players incur real-world losses too. The estimated [real-world value of all losses was circa $300,000](https://www.engadget.com/2014-02-02-eve-evolved-the-bloodbath-of-b-r5rb.html). Interestingly, in traditional gaming architecture, the developers could undelete some or all of the lost items. Should they only recover some of the lost items then this could show bias.
 
 The advent of blockchain technology in gaming will unlock this value for players by allowing true ownership. Although as pointed out in the first chapter, there is a nuance between the true ownership of tokens and of assets.
 
 
 ### Problem of closed source
-Similar to the problem of ownership, the problem of being closed-source is an additional constraint. Even if players can trade their gaming items for real money, they are not able to do so when the developer goes bankrupt. This was established in the previous section. In addition, close-sourced licensing would prevent players from running their own servers legally or from modifying the game.
+Similar to the problem of ownership, the problem of being closed-source ([proprietary](https://en.wikipedia.org/wiki/Proprietary_software)) is an additional constraint. Even if players can trade their gaming items for real money, they are not able to do so when the developer goes bankrupt. This was established in the previous section. In addition, close-sourced licensing would prevent players from running their own servers legally or from modifying the game.
 
 In the blockchain world, everything is open source and users can easily copy the code to run their network. This would also include the ability to legally make changes to the code. Game players have a long history of running custom servers with modified game rules. This is not necessarily due to nefarious desires, but it can be due to a gaming community that wishes to preserve what they have after the development team closes the official servers. 
 
 Taking on technical hassle and legal risk is a rather large hurdle to overcome for many communities. In the process of trying to migrate from an official server to an unofficial server, it should be expected to lose many community members. Worst of all, players who split away are faced with losing all of their progress: they will lose items, experience points, quest/story progress. 
 
-This could be different blockchain games where the full history of the game is public. A community could fork the code and the history to then launch their own separate network. This is the same as we see for forks of current blockchain networks.
+This could be different blockchain games where the full history of the game is public. A community could [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) the code and the history to then launch their own separate network. This is the same as we see for [forks of current blockchain networks](https://en.wikipedia.org/wiki/Fork_(blockchain)).
 
 Naturally, this leads to the topic of governance. If there is a split in the community there is generally a good reason for it. Players often feel ignored by the developers, they have limited influence in the current relationship model.
 
@@ -103,25 +103,30 @@ This should eliminate within-protocol cheating, such as item duplication or code
 ## References
 
 What online games got right and their problems
-* Blockchain gaming: putting the state on-chain - https://medium.com/@edward.thomson/blockchain-gaming-putting-the-state-on-chain-cc3915090547
+* [Blockchain gaming: putting the state on-chain](https://medium.com/@edward.thomson/blockchain-gaming-putting-the-state-on-chain-cc3915090547)
 
 Gaming trends
-* World trends of Video game industry - https://en.wikipedia.org/wiki/Video_game_industry#World_trends
-* Global games forecast for 2018 - https://newzoo.com/insights/articles/newzoo-cuts-global-games-forecast-for-2018-to-134-9-billion/
-* Global games market report - https://newzoo.com/products/reports/global-games-market-report/
+* [World trends of Video game industry](https://en.wikipedia.org/wiki/Video_game_industry#World_trends)
+* [Global games forecast for 2018](https://newzoo.com/insights/articles/newzoo-cuts-global-games-forecast-for-2018-to-134-9-billion/)
+* [Global games market report](https://newzoo.com/products/reports/global-games-market-report/)
 
 Client-server architecture
-* System architecture of MMORPGs- https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game#System_architecture
-* Client–server model - https://en.wikipedia.org/wiki/Client%E2%80%93server_model
+* [System architecture of MMORPGs](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game#System_architecture)
+* [Client–server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+
+Problems of ownership
+* [Virtual goldmine: In-game goods fuel debate over digital ownership - Reuters](https://www.reuters.com/article/us-global-videogames-property-analysis-t/virtual-goldmine-in-game-goods-fuel-debate-over-digital-ownership-idUSKBN1Y0032)
 
 Large Transactions
-* Planet Calypso Player Sells Virtual Resort for $635,000.00 - https://www.prnewswire.com/news-releases/planet-calypso-player-sells-virtual-resort-for-63500000-usd-107426428.html
-  * Entropia Universe - https://en.wikipedia.org/wiki/Entropia_Universe
-* Largest bitcoin transaction - https://cointelegraph.com/news/bitfinex-made-a-11-billion-btc-transaction-for-only-068
-* Bloodbath of B-R5RB - https://www.engadget.com/2014-02-02-eve-evolved-the-bloodbath-of-b-r5rb.html
-  * https://en.wikipedia.org/wiki/Bloodbath_of_B-R5RB
-  * https://www.eveonline.com/article/the-bloodbath-of-b-r5rb
+* [Planet Calypso Player Sells Virtual Resort for $635,000.00](https://www.prnewswire.com/news-releases/planet-calypso-player-sells-virtual-resort-for-63500000-usd-107426428.html)
+* [Entropia Universe (Wikipedia)](https://en.wikipedia.org/wiki/Entropia_Universe)
+* [Largest bitcoin transaction - Cointelegraph](https://cointelegraph.com/news/bitfinex-made-a-11-billion-btc-transaction-for-only-068)
+* [Bloodbath of B-R5RB - Engadget](https://www.engadget.com/2014-02-02-eve-evolved-the-bloodbath-of-b-r5rb.html)
+* [Bloodbath of B-R5RB (Wikipedia)](https://en.wikipedia.org/wiki/Bloodbath_of_B-R5RB)
+* [Bloodbath of B-R5RB - eveonline](https://www.eveonline.com/article/the-bloodbath-of-b-r5rb)
 
+Problem of closed source
+* [Proprietary software (Wikipedia)](https://en.wikipedia.org/wiki/Proprietary_software))
 
 Forking
 * Fork (software development) - https://en.wikipedia.org/wiki/Fork_(software_development)
