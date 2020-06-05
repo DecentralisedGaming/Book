@@ -2,7 +2,7 @@
 
 The goal of this book is to serve as a useful source of information on decentralied blockchain gaming. The content is for developers, although the first section should be intelligible by non-technical readers.
 
-The ultimate goal of improving knowledge around decentralised gaming is to encourage the production of complex online games that have the same complexity as games we already play, but with a decentralised architecture.
+The ultimate goal is to encourage the production of complex online games that have the same complexity as games we already play, but with a decentralised architecture.
 
 The information will serve as a great point of reference for understanding the technology and design decisions required to make decentralised games. The intent is not to provide a guide of how to build a game, but rather to guide the overall strategy of development.
 
