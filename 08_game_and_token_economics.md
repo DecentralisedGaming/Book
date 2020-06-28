@@ -21,6 +21,7 @@ Virtual economies are interesting as they mimic the characteristics of the real 
 Anderson notes that online games are not so simple so can’t be described as a simple economic loop. Online games tend to allow for player-to-player trading such that the buying and selling prices of items can fluctuate over time. For an offline game the game economy is a closed system and the game can follow a simple economic loop, while in an online game the economy is an open system and hence won’t be just a simple loop. That said, there can still be cycle mechanisms within an MMO economy, but prices will not follow a simple formula.
 
 The “Control Systems'' page of Wikipedia notes that an open system does not have any feedback loops to control the input; however, economies (real or virtual) do have feedback loops where the output can affect the input. So the usage of “open system” in this book is closer to that of [thermodynamics](https://en.wikipedia.org/wiki/Thermodynamic_system#Open_system):
+
 > “In an open system, there is an exchange of energy and matter between the system and the surroundings. The presence of reactants in an open beaker is an example of an open system.
 It is named closed, if borders are impenetrable for substance, but allow transit of energy in the form of heat, and isolated, if there is no exchange of heat and substances.”
 
@@ -64,7 +65,7 @@ Wikipedia’s article on virtual economies outlines five main characteristics th
 * **Secondary markets**: Virtual resources may be created, traded, bought, and sold. Real-world assets (typically money) may be at stake.
 * **Value added by users**: Users may enhance the value of virtual resources by customizing and improving upon the resource.
 
-“The existence of these conditions create an economic system with properties similar to those seen in contemporary economies. Therefore, economic theory can often be used to study these virtual worlds.” - [Source](https://en.wikipedia.org/wiki/Virtual_economy#Overview)
+“The existence of these conditions create an economic system with properties similar to those seen in contemporary economies. Therefore, economic theory can often be used to study these virtual worlds.” - [Virtual Economy (Wikipedia)](https://en.wikipedia.org/wiki/Virtual_economy#Overview)
 
 These characteristics should also be true for a decentralised game economy. Although there may be divergence in behaviours as it will be easier for players to trade their assets for real money and that players can have a stronger notion of ownership. 
 
