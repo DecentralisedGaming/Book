@@ -27,6 +27,11 @@ It is named closed, if borders are impenetrable for substance, but allow transit
 
 For an offline game, the “mass” of items can always be easily counted and there known. For an online game the exact “mass” of items can’t be so easily determined as players may log out and then not login again for a long time (sometimes never).
 
+<p align="center">
+  <img src="/images/economics/OpenSystemRepresentation.png">
+</p>
+
+
 Figure 1: Open systems have input and output flows, representing exchanges of matter, energy or information with their surroundings. Source: [Complex system (Wikipedia)](https://en.wikipedia.org/wiki/Complex_system#/media/File:OpenSystemRepresentation.svg)
  
  
