@@ -22,7 +22,7 @@ The following list is the proposed structure of the book. Currently, it is a wor
 * **Chapter 6 - [Blockchain gaming architecture](06_blockchain_gaming_architecture.md)**
   * **[06b - Comparing_blockchain_gaming_architectures](06b_comparing_blockchain_gaming_architectures.md)**
 * **Chapter 7 - [Randomness, determinism and fault tolerance](07_randomness_determinism_fault_tolerance.md)**
-* **08_game_and_token_economics**
+* **Chapter 8 - [Game_and_token_economics](08_game_and_token_economics.md)**
 * **09_funding_and_payments**
 * **10_governance**
 * **1X_distibuted action verification**   
