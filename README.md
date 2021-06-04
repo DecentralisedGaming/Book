@@ -10,7 +10,7 @@ The following list is the proposed structure of the book. Currently, it is a wor
 
 # Structure
 ## non-technical
-* **[Preface](00_preface.md)**
+* **Chapter 0 - [Preface](00_preface.md)**
 * **Chapter 1 - [Introduction](01_introduction.md)**
 * **Chapter 2 - [Online gaming problems](02_online_gaming_problems.md)**
 * **Chapter 3 - [History of blockchain games](03_history_of_blockchain_games.md)**
@@ -20,10 +20,10 @@ The following list is the proposed structure of the book. Currently, it is a wor
 ## technical
 ### back-end
 * **Chapter 6 - [Blockchain gaming architecture](06_blockchain_gaming_architecture.md)**
-  * **[06b - Comparing_blockchain_gaming_architectures](06b_comparing_blockchain_gaming_architectures.md)**
+  * **[Part B - Comparing_blockchain_gaming_architectures](06b_comparing_blockchain_gaming_architectures.md)**
 * **Chapter 7 - [Randomness, determinism and fault tolerance](07_randomness_determinism_fault_tolerance.md)**
 * **Chapter 8 - [Game_and_token_economics](08_game_and_token_economics.md)**
-* **09_funding_and_payments**
+* **Chapter 9 - [Funding and payments](09_funding_and_payments.md)**
 * **10_governance**
 * **1X_distibuted action verification**   
 * **1X_scaling**
