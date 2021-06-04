@@ -473,7 +473,7 @@ Economic Loop:
 * [Quantitative Theory of Money](https://en.wikipedia.org/wiki/Quantity_theory_of_money)
  
 #### Inflation
-* [Mudflation (Wikipedia)](https://en.bitcoinwiki.org/wiki/Mudflation
+* [Mudflation (Wikipedia)](https://en.bitcoinwiki.org/wiki/Mudflation)
 * [‘Flation - Ralph Koster](https://www.raphkoster.com/2007/01/17/flation/)
 * [MMO Economies - Hyperinflation, Reserve Currencies & You! - Extra Credits (YouTube)](https://www.youtube.com/watch?v=sumZLwFXJqE)
  
@@ -507,7 +507,7 @@ Economic Loop:
 #### End-User License Agreements
 * [The Unreal Estate Boom - Wired](https://www.wired.com/2003/01/gaming-2/)
 * [Ultima Online EULA](https://tos.ea.com/legalapp/WEBTERMS/US/en/PC/#section3)
-* [EverQuest EULA](https://www.daybreakgames.com/terms-of-service#section13)) 
+* [EverQuest EULA](https://www.daybreakgames.com/terms-of-service#section13)
 * [Black markets in virtual economies (Wikipedia)](https://en.m.wikipedia.org/wiki/Virtual_economy#Black_market)
 * [Second Life EULA](https://www.tilia-inc.com/legal/tos/#virtual-tokens)
  
