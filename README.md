@@ -24,7 +24,7 @@ The following list is the proposed structure of the book. Currently, it is a wor
 * **Chapter 7 - [Randomness, determinism and fault tolerance](07_randomness_determinism_fault_tolerance.md)**
 * **Chapter 8 - [Game_and_token_economics](08_game_and_token_economics.md)**
 * **Chapter 9 - [Funding and payments](09_funding_and_payments.md)**
-* **10_governance**
+* **Chapter 10 - [Governance](10_governance.md)**
 * **1X_distibuted action verification**   
 * **1X_scaling**
 
