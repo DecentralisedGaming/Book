@@ -80,9 +80,25 @@ Funding models for decentralised games are more complex than for traditional gam
 There are benefits of implementing a decentralised network over a traditional centralised one, such as less reliance on the developers to host all of the data. This should reduce hosting and bandwidth costs for the development team. Ideally, the network should be able to incentivise players to run a node and help sustain the network.
 ### Initial token sale
 In 2017, it was popular to sell tokens as an initial round of funding (so-called [Initial Coin Offering](https://en.wikipedia.org/wiki/Initial_coin_offering)), but little attention was given to building a sustainable business. There must be considerations for the initial funding as well as for the long-term development costs.
+
 A presale of a decentralised game is most akin to the crowdfunding method of funding mentioned above.
+
+In 2021, we see very few public token sales. The main reason is probably due to the risk of being classified as a security sale under US, such regulation has affected teams globally. That’s not to say a public sale is impossible, but rather greater care is required. Further avenues of funding include grant funding and selling tokens to large investors privately.
+
 #### Staggered token sales
 Any initial token sale does not need to occur in a single sale period but can be spread out over multiple periods. This was seen with the [Nine Chronicles](https://wiki.nine-chronicles.com/en/9C/NCG) fundraiser, as well as with [Polkadot](https://polkadot.network/).
+
+### Grant Funding
+One option for obtaining early funding is via one of the numerous grant programs, which tend to be administered by a foundation. A few grant programs are also administered via a DAO.
+ 
+The advantage of grant funding is that it is non-dilutive, so the risk is minimal and allows a team to experiment with an idea before meeting with investors.
+ 
+### Private Investment
+Due to the general difficulty of doing a public token sale many teams in the blockchain space have decided to undertake multiple private raises before launching their project without a public sale.
+ 
+Raising privately involves selling tokens to accredited / sophisticated investors. Doing this does not preclude a team from also doing a public sale. If anything it is easier to do a public sale once funds have been raised to cover legal costs.
+
+
 ### Recurring revenues in decentralised gaming
 One of the biggest challenges is to implement subscription-style payments. For decentralised projects it isn’t possible to pay the developer and then receive tokens to play the game. Developers don’t have the power to create new tokens and simply insert those into the game state.
 The latter is a challenge for decentralised game development since the developer team is not supposed to have excess privilege over the network, which makes it a challenge to obtain a maintenance fee. Options do exist, such as taking a portion of the block reward as will be discussed later.
